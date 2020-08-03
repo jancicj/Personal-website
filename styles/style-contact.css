@@ -1,0 +1,15 @@
+.contactdetails{
+    padding-top: 10%;
+    
+}
+.contactdetails a{
+    color: #E15634;
+    
+}
+.contactdetails i{
+    font-size: 3rem;
+    margin-top: 0.5rem;
+}
+.contactdetails p{
+    margin-bottom: 2rem;
+}

@@ -1,0 +1,100 @@
+@media screen and (max-width: 1024px){
+    .wrapper{
+        width: 95vw;
+        margin-left: 2.5vw;
+        overflow-x: hidden;
+    }
+    p{
+        font-size: 1rem;
+    }
+    h2{
+        font-size: 1.3rem !important;
+    }
+    h1{
+        font-size: 1.5rem;
+    }
+    .logo h2{
+        font-size: 2rem !important;
+    }
+    .logo{
+        padding-top: 0.8rem;
+    }
+    .section1, .section2, .section3{
+        flex-direction: column;
+        padding: 10% 5%;
+        margin: 0;
+    }
+    .left{
+        padding: 0;
+        text-align: center;
+    }
+    .profile{
+        display: none;
+    }
+    .img1{
+        width: 50%;
+        height: auto;
+    }
+    .right1{
+        order: 1;
+    }
+    .left2{
+        order: 2;
+    }
+    .cta{
+        float: left;
+        width: 90%;
+        text-align: center;
+        margin-left: 5%;
+    }
+/*ABOUT */
+#swing{
+    width: 80%;
+    height: auto;
+}
+/* CODING*/
+.leftcoding, .leftcoding2{
+    order: 2;
+    
+}
+.rightcoding, .rightcoding2{
+    order: 1;
+    padding-bottom: 5%;
+}
+.leftcoding h2, .leftcoding p, .leftcoding2 h2, .leftcoding2 p{
+    text-align: center;
+}
+.ig-logo i{
+    font-size: 3rem;
+}
+.img2pro{
+    width: 90%;
+}
+.img4pro{
+    width: 90%;
+    margin-left: 5%;
+}
+/* CONTACT */
+.leftcontact{
+    order: 2;
+}
+.rightcontact{
+    order: 1;
+    padding-bottom: 5%;
+}
+
+
+    footer{
+        flex-direction: column;
+        padding-top: 7rem;
+    }
+    .foot1{
+        display: none;
+    }
+    .foot2{
+        order: 2;
+    }
+    .foot3{
+        order: 1;
+    }
+}

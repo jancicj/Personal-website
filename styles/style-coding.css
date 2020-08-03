@@ -1,0 +1,40 @@
+
+.img1pro{
+    width: 100%;
+}
+.img2pro{
+    width: 80%;
+    margin-left: 5%;
+}
+
+.right{
+    display: flex;
+    padding-top: 0;
+}
+.coding{
+    display: flex;
+}
+li{
+    font-size: 1.2rem;
+    font-family: 'Lato', sans-serif; 
+}
+.left p, .left ul, .left h2{
+    text-align: left;
+}
+.left ul{
+    padding-left: 1.2rem;
+}
+.leftcoding2{
+    order: 2;
+    flex: 1;
+}
+.rightcoding2{
+    order: 1;
+    flex: 2;
+    flex-direction: column;
+}
+.img4pro{
+    width: 90%;
+    margin-left: 10%;
+}
+

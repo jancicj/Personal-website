@@ -1,0 +1,32 @@
+.right img{
+    height: 28rem;
+}
+.right{
+    padding: 10% 0;
+}
+.left h2{
+    margin-top: 2rem;
+}
+#swing{
+    transform: rotateZ(25deg);
+    animation: swing 2s ease-in-out infinite;
+}
+@keyframes swing {
+    0%{
+        transform: rotateZ(-10deg);
+        margin-right: -28%;
+        
+    }
+    
+    50%{
+        transform: rotateZ(10deg);
+        margin-right: 0%;
+        
+    }
+    
+    100%{
+        transform: rotateZ(-10deg);
+        margin-right: -28%;
+        
+    }
+}
